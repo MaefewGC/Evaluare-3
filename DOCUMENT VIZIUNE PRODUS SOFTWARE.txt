@@ -1,0 +1,152 @@
+DOCUMENT VIZIUNE PRODUS SOFTWARE
+Spotify – Bibliotecă de resurse digitale
+1. Introducere
+1.1 Scopul documentului
+
+Acest document descrie viziunea, poziționarea, specificațiile și backlog-ul Agile pentru produsul software Spotify, analizat ca bibliotecă de resurse digitale audio. Documentul este realizat conform cerințelor cursului și bunelor practici de inginerie software.
+
+1.2 Produsul analizat
+
+Nume produs: Spotify
+
+Tip: Aplicație / Serviciu software
+
+Domeniu: Bibliotecă digitală de resurse audio (muzică, podcasturi, audiobook-uri)
+
+2. Poziționarea produsului
+2.1 Oportunitatea
+
+Dezvoltarea accelerată a conținutului digital audio și creșterea utilizării dispozitivelor mobile generează o cerere ridicată pentru biblioteci digitale centralizate. Utilizatorii doresc acces rapid, personalizat și legal la conținut audio divers, fără a gestiona fișiere locale.
+
+Spotify exploatează această oportunitate oferind o bibliotecă digitală bazată pe cloud, disponibilă global.
+
+2.2 Problema adresată
+
+Principalele probleme identificate sunt:
+
+dificultatea descoperirii conținutului relevant;
+
+lipsa unei organizări eficiente a colecțiilor audio;
+
+acces limitat la conținut pe mai multe dispozitive;
+
+imposibilitatea utilizării offline a conținutului.
+
+Spotify rezolvă aceste probleme prin algoritmi de recomandare, organizare automată și sincronizare multi-device.
+
+2.3 Poziționarea produsului
+
+Spotify este poziționat ca:
+
+„O bibliotecă digitală audio inteligentă, personalizată și accesibilă de oriunde.”
+
+3. Părți implicate în proiect
+3.2 Stakeholders
+
+Compania Spotify (management, echipe tehnice și de produs)
+
+Case de discuri și artiști
+
+Creatori de podcasturi
+
+Agenții de publicitate
+
+Parteneri tehnologici
+
+Investitori
+
+3.3 Utilizatori
+
+Utilizatori Free (cu reclame)
+
+Utilizatori Premium
+
+Creatori de conținut (artiști, podcasteri)
+
+4. Capabilitățile produsului
+4.2 Capabilități principale
+
+Acces la o bibliotecă digitală audio extinsă
+
+Căutare și filtrare conținut
+
+Creare și administrare playlist-uri
+
+Recomandări personalizate bazate pe AI
+
+Redare offline (Premium)
+
+Sincronizare între dispozitive
+
+Partajare socială a conținutului
+
+Statistici pentru creatori
+
+5. Specificații software
+Tipuri de specificații utilizate
+
+Specificații funcționale
+
+Specificații de sistem
+
+Specificații de interfață
+
+Exemple de specificații (SRS)
+
+SRS-01 – Autentificare utilizator
+Sistemul trebuie să permită autentificarea utilizatorilor prin email sau conturi externe (Google, Facebook, Apple).
+
+SRS-02 – Redare conținut audio
+Sistemul trebuie să permită redarea streaming a fișierelor audio cu funcții de pauză, skip, shuffle și repeat.
+
+SRS-03 – Recomandări personalizate
+Sistemul trebuie să genereze playlist-uri personalizate pe baza comportamentului utilizatorului.
+
+SRS-04 – Acces offline
+Utilizatorii Premium trebuie să poată descărca conținut pentru redare offline.
+
+SRS-05 – Interfață utilizator
+Interfața trebuie să fie intuitivă, responsive și coerentă pe toate platformele.
+
+6. Product Backlog – Agile Scrum
+Roluri utilizatori
+
+Utilizator Free
+
+Utilizator Premium
+
+6.1 EPICS (Scenarii utilizator generale)
+
+EPIC 1 – Descoperirea conținutului audio
+Utilizatorii doresc să descopere muzică și podcasturi relevante.
+
+EPIC 2 – Gestionarea bibliotecii personale
+Utilizatorii doresc să își organizeze propria colecție audio.
+
+EPIC 3 – Ascultare flexibilă
+Utilizatorii doresc să asculte conținut audio online și offline.
+
+6.2 USER STORIES
+EPIC 1 – Descoperire conținut
+
+US 1.1: Ca utilizator, vreau recomandări zilnice pentru a descoperi muzică nouă.
+
+US 1.2: Ca utilizator, vreau să caut artiști sau podcasturi pentru a găsi rapid conținut.
+
+US 1.3: Ca utilizator, vreau să văd topuri și trending.
+
+EPIC 2 – Bibliotecă personală
+
+US 2.1: Ca utilizator, vreau să salvez melodii pentru a le asculta ulterior.
+
+US 2.2: Ca utilizator, vreau să creez playlist-uri personalizate.
+
+US 2.3: Ca utilizator, vreau să editez playlist-uri existente.
+
+EPIC 3 – Ascultare flexibilă
+
+US 3.1: Ca utilizator Premium, vreau să descarc melodii pentru ascultare offline.
+
+US 3.2: Ca utilizator, vreau să continui redarea pe alt dispozitiv.
+
+US 3.3: Ca utilizator Free, vreau să ascult muzică cu reclame.
